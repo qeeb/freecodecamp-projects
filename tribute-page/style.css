@@ -1,0 +1,101 @@
+.center{
+  text-align: center;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#main{
+  width: 900px;
+  margin: auto;
+  font-family: monospace, sans-serif;
+}
+.title-header{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+header #title{
+  font-size: 4em;
+  line-height: 100px;
+  color: #454545;
+}
+#facts-img{
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+#img-div{
+  width: calc(60% - 10px);
+  float: right;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+#img-div img{
+  max-width: 100%;
+}
+#facts{
+  width: calc(40% - 20px);
+  float: left;
+  margin-right: 20px;
+}
+#facts-img p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 120%;
+  clear: both;
+  color: #494949;
+}
+.quick-facts-header{
+  height: 50px;
+}
+.quick-facts-header h3{
+  margin-top: 0;
+}
+.v-center{
+  line-height: 50px;
+  padding-left: 20px;
+}
+#ch-early-life{
+  width: 300px;
+  height: 50px;
+}
+#career{
+  width: 150px;
+  height: 50px;
+}
+#achievements{
+  width: 200px;
+  height: 50px;
+}
+#p-life-legacy{
+  width: 300px;
+  height: 50px;
+}
+#timeline{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #454545;
+}
+#tribute-info{
+  width: calc(100% - 80px);
+  padding-left: 80px;
+  margin-top: 20px; 
+  margin-bottom: 40px;
+}
+footer{
+  width: 100%;
+}
+footer p{
+  float: right;
+  font-size: 80%;
+}
+.shadow{
+  position: relative;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
