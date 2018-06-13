@@ -1,0 +1,106 @@
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.white{
+  color: #eee;
+}
+.transparent{
+  background-color: transparent;
+}
+main{
+  width: 90%;
+  margin: auto;
+}
+.container{
+  width: calc(80% - 70px);
+  margin: auto;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 70px;
+  background-color: #2a2b35;
+}
+.title-holder{
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  border-bottom: 2px solid tomato;
+  line-height: 50px;
+  text-align: center;
+}
+#title{
+  margin-top: 0;
+}
+#description{
+  font-size: 16px;
+  text-align: center;
+  color: #eee;
+}
+#survey-form{
+  width: 70%;
+  margin-left: 25px;
+  margin-right: 5px;
+  margin-top: 40px;
+  padding-left: 120px;
+}
+#survey-form * {
+  color: #eee;
+}
+.form-item {
+  width: 100%;
+  min-height: 70px;
+}
+#name-label, #email-label, #number-label,
+#name, #email, #number, #dropdown-label, #dropdown{
+  display: block;
+}
+#name, #email, #number, #dropdown{
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+  margin-bottom: 10px;
+}
+#dropdown option{
+  background-color: #2a2b35;
+}
+label{
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #888!important;
+}
+::placeholder{
+  color: rgba(255, 99, 71, 0.726);
+}
+.textarea-form-item label, textarea{
+  display: block;
+}
+textarea{
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+  resize: none;
+  vertical-align: top;
+  font-size: 16px;
+}
+#submit{
+width: 100%;
+height: 50px;
+border: none;
+background-color: tomato;
+margin-bottom: 30px;
+margin-top: 30px;
+cursor: pointer;
+font-size: 28px;
+text-transform: uppercase;
+}

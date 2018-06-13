@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="title-holder">
+        <h1 id="title" class="uppercase white">Survey form</h1>
+      </div>
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      <form action="" id="survey-form">
+        <div class="form-item">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" id="name" placeholder="Name" required>
+        </div>
+        <div class="form-item">
+          <label for="email" id="email-label">Email</label>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form-item">
+          <label for="number" id="number-label">Age</label>
+          <input type="number" id="number" placeholder="Age" min="10" max="130" required>
+        </div>
+        <div class="form-item">
+          <label for="dropdown" id="dropdown-label">Which option sutis you the most?</label>
+          <select name="dropdown" id="dropdown">
+            <option value="">Student</option>
+            <option value="">Full Time Job</option>
+            <option value="">Full time learner</option>
+            <option value="">Prefer not to say</option>
+            <option value="">Other</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <label for="">How likely you would recommend FCC</label>
+          <ul class="radio-buttson" style="list-style: none;">
+            <li>
+              <input name="radio-buttons" type="radio">
+              <label for="">Definitly</label>
+            </li>
+            <li>
+              <input name="radio-buttons" type="radio">
+              <label for="">Maybe</label>
+            </li>
+            <li>
+              <input name="radio-buttons" type="radio">
+              <label for="">Not Sure</label>
+            </li>
+          </ul>
+        </div>
+        <div class="form-item">
+          <label for="">Things that should be imporved</label>
+          <ul class="checkboxes" style="list-style: none">
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="preer">
+                Front-end projects
+              </label>
+            </li>
+            <li class="checkbox">
+              <label for="">
+                <input type="checkbox" name="">
+                back-end projects
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                Data Visualization
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                Challenges
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+               Open source community
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                Videos
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                City meetups
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                Wiki
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                Forum
+              </label>
+            </li>
+            <li class="checkbox">
+              <label>
+                <input type="checkbox" name="">
+                Additional Courses
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="textarea-form-item">
+          <label for="textarea">Any suggestions</label>
+          <textarea name="comments" id="textarea" placeholder="Enter your text here..."></textarea>
+        </div>
+        <button type="button" id="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
+<!--
+User Story #1: I can see a title with id="title" in H1 sized text.
+User Story #2: I can see a short explanation with id="description" in P sized text.
+User Story #3: I can see a form with id="survey-form".
+User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
+User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
+User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+User Story #7: Inside the form, I can enter a number in a field with id="number".
+User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.
+User Story #9: If I enter numbers outside the range of the number input, I will see an HTML5 validation error.
+User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
+User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
+User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
+User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.
+User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
+User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
+User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
+-->
